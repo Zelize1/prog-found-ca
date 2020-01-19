@@ -7,17 +7,17 @@ var food = "pancake";
 var person = {
     name: "Cecilie",
     gender: "girl"
-}
+};
 
 // question 3
 
 var outOfStock = true;
 
 if(outOfStock === true) {
-    console.log("Out of stock")
+    console.log("Out of stock");
 }
 else {
-    console.log("In stock")
+    console.log("In stock");
 }
 
 // question 4
@@ -57,7 +57,7 @@ var foodArray = [
         foodQuantity: 3,
         foodYummy: false
     }
-]
+];
 
 for(var i = 0; i < foodArray.length; i++) {
     console.log(foodArray[i].foodQuantity);
